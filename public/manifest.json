@@ -1,6 +1,6 @@
 {
-  "name": "My New Hugo Site",
-  "short_name": "My New Hugo Site",
+  "name": "BatchAlchemy",
+  "short_name": "BatchAlchemy",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
