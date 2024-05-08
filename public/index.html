@@ -4,13 +4,15 @@
 	<meta name="generator" content="Hugo 0.125.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Batch Syntax Research Summary # Introduction (WIP) # motivated because there is no documentation we aim to help to strengthen the understanding behind it we definitely have not found out every syntax detail of Batch, just some interesting things to know about / consider disclaimer: Batch syntax is weird, so keep everything with a grain of salt note: everything we talk about is considered to be done in the context of Batch mode (there is a difference between Batch mode and interactive mode, look it up here) Findings on the Batch Syntax # CALL &amp; valid local filenames # This experiment was motivated by the idea that parenthesis characters may appear in Windows filenames.">
+<meta name="description" content="Batch Syntax Research Summary # Preliminary Remarks # Have you ever felt like Batch scripting is more alchemy than programming? Or did you ever had a hard time understanding its syntactic functionings? You&rsquo;re not alone! The lack of official documentation for Batch syntax creates a confusing landscape for even seasoned developers and analysts. That&rsquo;s where BatchAlchemy comes in.
+The BatchAlchemy project originally began with a singular mission: to develop a powerful tool for deobfuscating Batch malware.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://batchalchemy.github.io/">
   <meta property="og:site_name" content="BatchAlchemy">
   <meta property="og:title" content="Batch Syntax Research Summary">
-  <meta property="og:description" content="Batch Syntax Research Summary # Introduction (WIP) # motivated because there is no documentation we aim to help to strengthen the understanding behind it we definitely have not found out every syntax detail of Batch, just some interesting things to know about / consider disclaimer: Batch syntax is weird, so keep everything with a grain of salt note: everything we talk about is considered to be done in the context of Batch mode (there is a difference between Batch mode and interactive mode, look it up here) Findings on the Batch Syntax # CALL &amp;amp; valid local filenames # This experiment was motivated by the idea that parenthesis characters may appear in Windows filenames.">
+  <meta property="og:description" content="Batch Syntax Research Summary # Preliminary Remarks # Have you ever felt like Batch scripting is more alchemy than programming? Or did you ever had a hard time understanding its syntactic functionings? You&amp;rsquo;re not alone! The lack of official documentation for Batch syntax creates a confusing landscape for even seasoned developers and analysts. That&amp;rsquo;s where BatchAlchemy comes in.
+The BatchAlchemy project originally began with a singular mission: to develop a powerful tool for deobfuscating Batch malware.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <title>Batch Syntax Research Summary | BatchAlchemy</title>
@@ -114,7 +116,7 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction-wip">Introduction (WIP)</a></li>
+    <li><a href="#preliminary-remarks">Preliminary Remarks</a></li>
   </ul>
 
   <ul>
@@ -137,17 +139,16 @@ https://github.com/alex-shpak/hugo-book
   Batch Syntax Research Summary
   <a class="anchor" href="#batch-syntax-research-summary">#</a>
 </h1>
-<h2 id="introduction-wip">
-  Introduction (WIP)
-  <a class="anchor" href="#introduction-wip">#</a>
+<h2 id="preliminary-remarks">
+  Preliminary Remarks
+  <a class="anchor" href="#preliminary-remarks">#</a>
 </h2>
-<ul>
-<li>motivated because there is no documentation</li>
-<li>we aim to help to strengthen the understanding behind it</li>
-<li>we definitely have not found out every syntax detail of Batch, just some interesting things to know about / consider</li>
-<li>disclaimer: Batch syntax is weird, so keep everything with a grain of salt</li>
-<li>note: everything we talk about is considered to be done in the context of Batch mode (there is a difference between Batch mode and interactive mode, look it up <em>here</em>)</li>
-</ul>
+<p>Have you ever felt like Batch scripting is more alchemy than programming? Or did you ever had a hard time understanding its syntactic functionings? You&rsquo;re not alone! The lack of official documentation for Batch syntax creates a confusing landscape for even seasoned developers and analysts. That&rsquo;s where <em>BatchAlchemy</em> comes in.</p>
+<p>The <em>BatchAlchemy</em> project originally began with a singular mission: to develop a powerful tool for deobfuscating Batch malware. This deobfuscation framework, envisioned as user-friendly, extensible, and easy to maintain, would be a game-changer in the fight against malicious Batch code. <em>(By the way, you can find the GitHub repository <a href="https://github.com/BatchAlchemy/batchalchemy">here</a>.)</em></p>
+<p>To build this tool from the ground up, we conducted extensive research and experimentation, meticulously dissecting some of the language&rsquo;s inner workings.
+Hence, this summary aims to demystify the sytax of Batch a bit more by sharing our most intriguing findings. While we surely haven&rsquo;t mapped the entire territory, we&rsquo;ve unearthed some valuable insights to strengthen your Batch syntax knowledge.</p>
+<p>Note that almost everything we discuss here applies specifically to <em>Batch mode</em>, which is distinct from interactive mode. If this distinction seems unfamiliar, a quick web search using &ldquo;<em>interactive mode vs batch mode</em>&rdquo; will help clarify things.</p>
+<p>Final preliminary remark: Our journey of actively researching Batch&rsquo;s intricacies is complete, but our mission to share this knowledge is ongoing. We&rsquo;ll be steadily publishing new sections delving into various Batch concepts, so stay tuned for more!</p>
 <h1 id="findings-on-the-batch-syntax">
   Findings on the Batch Syntax
   <a class="anchor" href="#findings-on-the-batch-syntax">#</a>
@@ -367,7 +368,7 @@ Expecting stream input...
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction-wip">Introduction (WIP)</a></li>
+    <li><a href="#preliminary-remarks">Preliminary Remarks</a></li>
   </ul>
 
   <ul>

@@ -7,12 +7,17 @@ draft: false
 ---
 # Batch Syntax Research Summary
 
-## Introduction (WIP)
-- motivated because there is no documentation
-- we aim to help to strengthen the understanding behind it
-- we definitely have not found out every syntax detail of Batch, just some interesting things to know about / consider
-- disclaimer: Batch syntax is weird, so keep everything with a grain of salt
-- note: everything we talk about is considered to be done in the context of Batch mode (there is a difference between Batch mode and interactive mode, look it up *here*)
+## Preliminary Remarks
+Have you ever felt like Batch scripting is more alchemy than programming? Or did you ever had a hard time understanding its syntactic functionings? You're not alone! The lack of official documentation for Batch syntax creates a confusing landscape for even seasoned developers and analysts. That's where *BatchAlchemy* comes in.
+
+The *BatchAlchemy* project originally began with a singular mission: to develop a powerful tool for deobfuscating Batch malware. This deobfuscation framework, envisioned as user-friendly, extensible, and easy to maintain, would be a game-changer in the fight against malicious Batch code. *(By the way, you can find the GitHub repository [here](https://github.com/BatchAlchemy/batchalchemy).)*
+
+To build this tool from the ground up, we conducted extensive research and experimentation, meticulously dissecting some of the language's inner workings.
+Hence, this summary aims to demystify the sytax of Batch a bit more by sharing our most intriguing findings. While we surely haven't mapped the entire territory, we've unearthed some valuable insights to strengthen your Batch syntax knowledge.
+
+Note that almost everything we discuss here applies specifically to *Batch mode*, which is distinct from interactive mode. If this distinction seems unfamiliar, a quick web search using "*interactive mode vs batch mode*" will help clarify things.
+
+Final preliminary remark: Our journey of actively researching Batch's intricacies is complete, but our mission to share this knowledge is ongoing. We'll be steadily publishing new sections delving into various Batch concepts, so stay tuned for more!
 
 # Findings on the Batch Syntax
 
