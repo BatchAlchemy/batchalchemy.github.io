@@ -94,7 +94,7 @@ inside x.bat
 Actual filename: x.bat
 ```
 
-The result shows that the closing parenthesis delimits the filename to be called to the right and that the `x.bat` has priority when either filename is being interpreted by the Windows Command Prompt.
+The result shows that the opening parenthesis delimits the filename to be called to the right and that the `x.bat` has priority when either filename is being interpreted by the Windows Command Prompt.
 
 This is backed by the fact that upon removing ``x.bat`` from the working directory, the extensionless `x` will still not be called by the calling lines of code in either case:
 ```bash=
@@ -105,7 +105,7 @@ C:\Users\defaultuser>call x.bat(
 The command "x.bat" is either misspelled or could not be found.
 ```
 
-The next three cases (ll. 8-10) fail to call the files as well. As seen before, the closing parenthesis in **lines 8 and 9** delimit the filenames to the right, now yielding empty filenames (because the files' names on disk start with the closing parenthesis). Hence, the Windows Command Prompt interprets these two lines of code simply as a `call` command with empty arguments, yielding in an empty output with no file being called:
+The next three cases (ll. 8-10) fail to call the files as well. As seen before, the opening parenthesis in **lines 8 and 9** delimit the filenames to the right, now yielding empty filenames (because the files' names on disk start with the opening parenthesis). Hence, the Windows Command Prompt interprets these two lines of code simply as a `call` command with empty arguments, yielding in an empty output with no file being called:
 ```bash=
 C:\Users\defaultuser>call (x.bat
 
